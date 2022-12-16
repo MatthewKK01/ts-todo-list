@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Creating ToDo application step-by-step
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1) ## Project Setup
+    `npx create-react-app --template typescript` - Create React Application depended on Typescript
 
-## Available Scripts
+2) ## TSX markup
+    creating markup depended on Typescript Functional Component which is provided from FC react Librady
+3) ## Adding CSS snippets
+    I used flexbox and default CSS to stylize our application
 
-In the project directory, you can run:
+4) ## Setting Up useState Function
+    using some statemant management using React hooks to keep track of the list and it`s types.
 
-### `npm start`
+5) ## Creating Handlers
+    Handlers is the most popular option to create states by values user entered in input.
+6) ## define and set Type of 'TodoList' using an Interface
+    I created some interface that takes two value first one is TaskName- which's type is String, and another one is Deadline - days of currect task, which is a number`s Type.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+7) ## Clearing Input
+    After user fills the data and creates a new task. input fields should be clear.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+8) ## Delete Task
+    every task should have delete button after completing it. so I created Delete button which has onClick event. in event there is a function called `CompleteTask`.
 
-### `npm test`
+# Used tools
+ - React
+ - Typescript
+ - Plain CSS
+ - Flexbox
+ - Grid
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Author
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Linkedin - [Mate Kavelashvili](https://www.linkedin.com/in/mate-kavelashvili-0547a01a9/)
+- Frontend Mentor - [@MatthewKK01](https://www.frontendmentor.io/profile/MatthewKK01)
+- Google Mail - [Mate Kavelashvili](mailto:mateyavelashvili@gmail.com)
